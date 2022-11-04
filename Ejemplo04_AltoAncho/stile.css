@@ -1,0 +1,55 @@
+/*
+margging
+4 valores -> margin: top, right, bottom, left
+3 valores -> margin: top, left/right, botom
+2 valores -> margin: top/botom , left/right 
+1 valor -> margin: top/right/bottom/left
+
+padding
+4 valores -> margin: top, right, bottom, left
+3 valores -> margin: top, left/right, botom
+2 valores -> margin: top/botom , left/right 
+1 valor -> margin: top/right/bottom/left
+
+border
+border-width: ancho del borde
+border-style: estilo del borde
+border-color: color del borde
+*/
+
+body{
+    background-color: grey;
+}
+.bloque{
+    width: 200px;
+    margin-left: auto;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.caja{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px 100px 70px;
+
+    border: 5px;
+    border-left-style: dashed;
+    border-right-color: red;
+
+    border-style: hidden;
+
+
+}
+
+.linea{
+    background-color: antiquewhite;
+    padding-bottom: 100px;
+    
+}
+
+

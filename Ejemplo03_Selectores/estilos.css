@@ -1,0 +1,66 @@
+/*Estilos*/
+
+/*
+Selectores Simples
+    - Selectores elementales
+        Selectores universales -> *
+        Selectores de tipo o etiqueta -> Nombre de la etiqueta
+
+    - Selectores de atributo
+        id -> id del elemtos
+        clase -> clase del elemeto
+        otros atributos 
+
+Selectores Compuestos
+    - Selectores agrupados -> Se agrupan los selectores separados por comas
+                              y se escribe el estilo de una vez
+    - Selectores combinados
+        Selectores descendientes
+        Selector de hermano siguiente -> +
+        Selectores de hermanos siguinetes -> ~
+
+
+    - psudoclases -  pseudoelementos  
+
+*/
+
+/*
+*{
+    background-color: lightblue;
+}
+
+
+h1{
+    background-color: blueviolet;
+}
+p{
+    background-color: aqua;
+}
+*/
+
+#titulo{
+    background-color: blue;
+}
+
+.parrafo, .parrafo_2, .parrafo_3, .parrafo_4{
+    background-color: yellow;
+}
+
+div h2{
+    background-color: brown;
+}
+
+
+h2{
+    background-color: red;
+}
+
+
+.parrafo_3 + .parrafo_4{
+    background-color: blueviolet;
+}
+
+
+.parrafo_3 ~ p{
+    background-color: tomato;
+}
